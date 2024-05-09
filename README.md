@@ -21,7 +21,7 @@ while True:
    print("Server > ",s.recv(1024).decode())
 ```
 ### SERVER:
- ``
+ ```
  
 import socket 
 s=socket.socket() 
@@ -34,8 +34,7 @@ while True:
             msg=input("Server > ") 
             c.send(msg.encode())`
 ```
-   
-## OUPUT
+### OUPUT
 ### CLIENT:
 ![image](https://github.com/prasanna2006I/3b_CHAT_USING_TCP_SOCKETS/assets/150161282/fdc4eee0-e7d6-469d-bae3-74e81de195f0)
 
